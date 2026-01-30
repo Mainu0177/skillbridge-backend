@@ -150,6 +150,9 @@ CREATE INDEX "verification_identifier_idx" ON "verification"("identifier");
 CREATE UNIQUE INDEX "TutorProfile_userId_key" ON "TutorProfile"("userId");
 
 -- CreateIndex
+CREATE UNIQUE INDEX "Category_name_key" ON "Category"("name");
+
+-- CreateIndex
 CREATE UNIQUE INDEX "TutorCategory_tutorId_categoryId_key" ON "TutorCategory"("tutorId", "categoryId");
 
 -- CreateIndex
