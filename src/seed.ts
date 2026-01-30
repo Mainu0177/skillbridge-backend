@@ -45,7 +45,7 @@ async function main() {
             },
         });
     }
-    console.log("✅ Categories seeded");
+    console.log("Categories seeded");
 }
 
 main().catch((err:any) => {
